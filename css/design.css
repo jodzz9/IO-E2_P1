@@ -3,6 +3,7 @@ body {
     padding: 0;
     height: 100%;
     line-height: 1.6em;
+    background-color: rgb(234, 233, 237);
     font-family: 'Open Sans', sans-serif;
 }
 h1 {
@@ -12,6 +13,7 @@ h1 {
 h2 {
     font-size: 2em;
     line-height: 1em;
+    padding: 10px;
 }
 h3 {
     font-size: 1.25em;
@@ -21,7 +23,7 @@ h3 {
 h1,
 h2,
 h3 {
-    font-family: 'Apercu', serif;
+    font-family: 'Open Sans', serif;
 }
 p {
     font-size: 1.0em;
@@ -43,8 +45,8 @@ nav {
 }
 iframe {}
 .featured {
-    height: 80vh;
-    background: url(../img/Header.jpg) center center no-repeat fixed;
+    height: 90vh;
+    background: url(../img/header2.jpg) center center no-repeat fixed;
     background-size: cover;
     display: grid;
 }
